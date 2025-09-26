@@ -1,7 +1,3 @@
-Below is a professional README file for the GitHub repository abd0o0/yextApi. Based on the "Page not found" error (confirming the repo is newly created or empty), I've tailored this to assume it's a Python-based client for integrating with the Yext API (a platform for managing business listings, search, and knowledge graphs across publishers like Google and Apple Maps). It leverages the official yext PyPI package for core interactions, with custom wrappers for ease of use. This makes it a strong portfolio item for your software engineering interview, showcasing API integration, OAuth handling, and data management skills (similar to your Google API repo).
-To add this to your repo: Go to GitHub, navigate to the repo (create it if needed), click "Add file" > "Create new file," name it README.md, paste the content, and commit. This will give the repo a professional appearance right away.
-<artifact identifier="yextapi-readme" type="text/markdown" title="README.md for yextApi">
-# Yext API Client
 Overview
 Yext API Client is a Python wrapper I built to streamline interactions with the Yext Platform APIs, including the Management API for syncing business listings (e.g., locations, reviews) and the Search API for AI-powered queries. It handles OAuth2 authentication, entity management, and data syncing across 200+ publishers (like Google My Business or Yelp), making it easy to automate knowledge graph updates or build search experiences. This project demonstrates my skills in RESTful API design, secure auth flows, and scalable data pipelines—ideal for location-based services or CMS integrations.
 Disclaimer: Requires a Yext developer account and API credentials. Follow Yext's terms of service and rate limits. This is for educational/personal use.
@@ -87,4 +83,3 @@ print(response["response"]["meta"]["id"])  # New entity ID
 
 
 Run python yext_cli.py --help for all commands. Examples in /examples folder; full auth setup in /docs.
-Project Structure
